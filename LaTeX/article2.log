@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.12)  27 APR 2023 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.12)  27 APR 2023 23:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**article2.tex
-(./article2.tex
+**/home/solaire/Documents/nonparametric/tarea1/LaTeX/article2.tex
+(/home/solaire/Documents/nonparametric/tarea1/LaTeX/article2.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -202,6 +202,7 @@ File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4060.
 Package hyperref Info: Hyper figures OFF on input line 4177.
 Package hyperref Info: Link nesting OFF on input line 4182.
 Package hyperref Info: Hyper index ON on input line 4185.
@@ -228,11 +229,10 @@ Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
 Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring ON on input line 6060.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -356,8 +356,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 24.
-(./article2.out) (./article2.out)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 24.
+ (./article2.out) (./article2.out)
 \@outlinefile=\write3
 \openout3 = `article2.out'.
 
@@ -368,12 +375,12 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write4
 \openout4 = `article2.toc'.
 
-<../bar1.png, id=44, 602.25pt x 803.0pt>
+<../bar1.png, id=45, 602.25pt x 803.0pt>
 File: ../bar1.png Graphic file (type png)
 <use ../bar1.png>
 Package pdftex.def Info: ../bar1.png  used on input line 42.
 (pdftex.def)             Requested size: 135.13112pt x 180.1771pt.
-<../bar2.png, id=45, 602.25pt x 803.0pt>
+<../bar2.png, id=46, 602.25pt x 803.0pt>
 File: ../bar2.png Graphic file (type png)
 <use ../bar2.png>
 Package pdftex.def Info: ../bar2.png  used on input line 48.
@@ -381,22 +388,22 @@ Package pdftex.def Info: ../bar2.png  used on input line 48.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../bar1.png (PNG copy)> <../bar2.png (PNG copy)>]
-<../hist2.png, id=56, 803.0pt x 451.6875pt>
+<../hist2.png, id=59, 803.0pt x 451.6875pt>
 File: ../hist2.png Graphic file (type png)
 <use ../hist2.png>
 Package pdftex.def Info: ../hist2.png  used on input line 75.
 (pdftex.def)             Requested size: 202.69325pt x 114.01056pt.
-<../qqplot.png, id=57, 803.0pt x 451.6875pt>
+<../qqplot.png, id=60, 803.0pt x 451.6875pt>
 File: ../qqplot.png Graphic file (type png)
 <use ../qqplot.png>
 Package pdftex.def Info: ../qqplot.png  used on input line 81.
 (pdftex.def)             Requested size: 202.69325pt x 114.01056pt.
-<../hist1.png, id=58, 803.0pt x 451.6875pt>
+<../hist1.png, id=61, 803.0pt x 451.6875pt>
 File: ../hist1.png Graphic file (type png)
 <use ../hist1.png>
 Package pdftex.def Info: ../hist1.png  used on input line 132.
 (pdftex.def)             Requested size: 202.69325pt x 114.01056pt.
-<../qqplot1.png, id=59, 803.0pt x 451.6875pt>
+<../qqplot1.png, id=62, 803.0pt x 451.6875pt>
 File: ../qqplot1.png Graphic file (type png)
 <use ../qqplot1.png>
 Package pdftex.def Info: ../qqplot1.png  used on input line 138.
@@ -409,18 +416,18 @@ Package rerunfilecheck Info: File `article2.out' has not changed.
 (rerunfilecheck)             Checksum: A0DE402781C1277B2F2746E5926E07C1;1569.
  ) 
 Here is how much of TeX's memory you used:
- 11187 strings out of 476025
- 174845 string characters out of 5796532
- 1863388 words of memory out of 5000000
- 31481 multiletter control sequences out of 15000+600000
- 518016 words of font info for 52 fonts, out of 8000000 for 9000
+ 11272 strings out of 476025
+ 176514 string characters out of 5796532
+ 1864388 words of memory out of 5000000
+ 31553 multiletter control sequences out of 15000+600000
+ 519320 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,76p,326b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on article2.pdf (3 pages, 262574 bytes).
+ 75i,12n,76p,377b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on article2.pdf (3 pages, 283799 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 155 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  23 named destinations out of 1000 (max. 500000)
  95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
